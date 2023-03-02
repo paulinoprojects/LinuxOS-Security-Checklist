@@ -8,8 +8,8 @@
     - Enable automatic updates (You can enable automatic updates by installing the unattended-upgrades package):<b><i>sudo apt-get install unattended-upgrades</i></b>
     - Once the package is installed, you can configure it by editing the configuration file: <b><i>sudo nano /etc/apt/apt.conf.d/50unattended-upgrades</i></b>
       - In the configuration file, you can set the following options:
-          - "//Unattended-Upgrade::Automatic-Reboot": Set to "true" to enable automatic reboots after updates.
-          - "//Unattended-Upgrade::Automatic-Reboot-Time": Set the time of day to perform automatic reboots.
+          - "//Unattended-Upgrade::Automatic-Reboot": <b><i>Set to "true" to enable automatic reboots after updates.</i></b>
+          - "//Unattended-Upgrade::Automatic-Reboot-Time": <b><i>Set the time of day to perform automatic reboots.</i></b>
     - Use a package audit tool (You can use a package audit tool like <b><i>lynis</i></b> to scan the system for security issues and vulnerabilities):
     <b><i>sudo apt-get install lynis</i></b>
     - Once the tool is installed, you can run it with the following command: <b><i>sudo lynis audit system</i></b>
