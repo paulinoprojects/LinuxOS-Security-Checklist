@@ -1,6 +1,7 @@
 # LinuxOS-Security-Checklist
 
 1. <b>Keep the OS updated with the latest patches and security updates.</b>
+    - Open the termimal interface and follow the these steps below in sequential order.
     - Update the package manager: <b><i>sudo apt-get update</i></b>
     - Upgrade the system packages: <b><i>sudo apt-get upgrade</i></b>
     - Install security updates: <b><i>sudo apt-get dist-upgrade</i></b>
